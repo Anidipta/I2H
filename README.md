@@ -22,6 +22,10 @@ Key modifications:
 - A linear projection layer aligned MobileNetV3’s features with DistilBART’s hidden dimension.
 - DistilBART, being a distilled transformer, allowed for faster and more efficient HTML generation.
 
+Model Pipeline 
+
+![image](https://github.com/Anidipta/I2H/blob/main/model%20pipeline.png)
+
 Why Training is Slow?
 
 - Dataset Streaming: The dataset is streamed, which might introduce delays in data loading.
